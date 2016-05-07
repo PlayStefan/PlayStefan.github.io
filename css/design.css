@@ -119,8 +119,8 @@ table#layout {
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
-	min-width: 660px;
-	max-width: 960px;
+	min-width: 685px;
+	max-width: 985px;
 }
 
 /* td - IDs */
@@ -159,7 +159,7 @@ img#avatar {
 
 img#banner {
 	width: 644px;
-	height: 147px;
+	height: 200px;
 	z-index: 1;
 }
 
@@ -174,9 +174,9 @@ img.video_pic {
 /* div - IDs */
 div#header {
 	position: relative;
-	background-color: #797979;
+	background-color: #9c9d9b;
 	clear: left;
-	height: 147px;
+	height: 200px;
 		
 	text-align: center;
 	box-shadow: 1px 1px 2px #a9a9a9;
