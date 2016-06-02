@@ -21,6 +21,10 @@ a:link {
 	a.playlist:link {
 		color: black;
 	}
+	a.footer:link {
+		color: black;
+		text-decoration: none;
+	}
 
 a:visited {
 	color: gray;
@@ -34,9 +38,14 @@ a:visited {
 	}
 	a.playlist:visited {
 		color: black;
+	}
+	a.footer:visited {
+		color: black;
+		text-decoration: none;
 	}		
 
-a:hover {
+a:hover,
+a.footer:hover {
 	color: black;
 	text-decoration: underline;
 }
@@ -88,7 +97,8 @@ a:hover {
 		color: gray;	
 	}
 	
-a:active {
+a:active,
+a.footer:active {
 	color: black;
 	text-decoration: underline;
 }
