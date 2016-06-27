@@ -17,7 +17,33 @@ a:link {
 	a.facebook:link,
 	a.googleplus:link {
 		text-decoration: none;
+		
+		background-repeat: no-repeat;
+		background-position: left;		
+		
+		padding-top: 5px;
+		padding-bottom: 5px;		
 	}
+	a.youtube:link {
+		background-image: url(../images/youtube_b.png);	
+			
+		padding-left: 28px;
+	}	
+	a.twitter:link {
+		background-image: url(../images/twitter_b.png);	
+		
+		padding-left: 23px;
+	}	
+	a.facebook:link {
+		background-image: url(../images/facebook_b.png);	
+		
+		padding-left: 21px;
+	}
+	a.googleplus:link {
+		background-image: url(../images/googleplus_b.png);		
+		
+		padding-left: 30px;
+	}		
 	a.playlist:link {
 		color: black;
 	}
@@ -35,7 +61,33 @@ a:visited {
 	a.facebook:visited,
 	a.googleplus:visited {
 		text-decoration: none;
+		
+		background-repeat: no-repeat;
+		background-position: left;		
+		
+		padding-top: 5px;
+		padding-bottom: 5px;			
 	}
+	a.youtube:visited {
+		background-image: url(../images/youtube_b.png);
+		
+		padding-left: 28px;
+	}		
+	a.twitter:visited {
+		background-image: url(../images/twitter_b.png);
+		
+		padding-left: 23px;
+	}	
+	a.facebook:visited {
+		background-image: url(../images/facebook_b.png);
+		
+		padding-left: 21px;
+	}
+	a.googleplus:visited {
+		background-image: url(../images/googleplus_b.png);
+		
+		padding-left: 30px;
+	}	
 	a.playlist:visited {
 		color: black;
 	}
@@ -49,9 +101,24 @@ a.footer:hover {
 	color: black;
 	text-decoration: underline;
 }
-	a.youtube:hover {
+	a.youtube:hover,
+	a.twitter:hover,
+	a.facebook:hover,
+	a.googleplus:hover {
 		text-decoration: none;
-	
+		
+		background-repeat: no-repeat;
+		background-position: left;		
+		
+		padding-top: 5px;
+		padding-bottom: 5px;
+			
+	}
+	a.youtube:hover {	
+		background-image: url(../images/youtube_g.png);		
+		
+		padding-left: 28px;			
+/*	
 		border-style: solid;
 		border-top-width: 0px;
 		border-left-width: 0px;
@@ -59,10 +126,13 @@ a.footer:hover {
 		border-bottom-width: 5px;
 	
 		border-bottom-color: #d21724;
+*/
 	}
 	a.twitter:hover {
-		text-decoration: none;
-	
+		background-image: url(../images/twitter_g.png);
+		
+		padding-left: 23px;
+/*	
 		border-style: solid;
 		border-top-width: 0px;
 		border-left-width: 0px;
@@ -70,21 +140,27 @@ a.footer:hover {
 		border-bottom-width: 5px;
 	
 		border-bottom-color: #00a3ec;
+*/
 	}	
 	a.facebook:hover {
-		text-decoration: none;
-				
+		background-image: url(../images/facebook_g.png);
+		
+		padding-left: 21px;
+/*				
 		border-style: solid;
 		border-top-width: 0px;
 		border-left-width: 0px;
 		border-right-width: 0px;
 		border-bottom-width: 5px;
 		
-		border-bottom-color: #375790;					
+		border-bottom-color: #375790;
+*/					
 	}
 	a.googleplus:hover {
-		text-decoration: none;
-	
+		background-image: url(../images/googleplus_g.png);	
+
+		padding-left: 30px;			
+/*	
 		border-style: solid;
 		border-top-width: 0px;
 		border-left-width: 0px;
@@ -92,6 +168,7 @@ a.footer:hover {
 		border-bottom-width: 5px;			
 	
 		border-bottom-color: #de413c;
+*/		
 	}
 	a.playlist:hover {
 		color: gray;	
@@ -107,7 +184,34 @@ a.footer:active {
 	a.facebook:active,
 	a.googleplus:active {
 		text-decoration: none;
+		
+		background-repeat: no-repeat;
+		background-position: left;		
+		
+		padding-top: 5px;
+		padding-bottom: 5px;
+			
 	}
+	a.youtube:active {
+		background-image: url(../images/youtube_g.png);
+		
+		padding-left: 28px;
+	}	
+	a.twitter:active {
+		background-image: url(../images/twitter_g.png);
+		
+		padding-left: 23px;
+	}		
+	a.facebook:active {
+		background-image: url(../images/facebook_g.png);
+		
+		padding-left: 21px;
+	}	
+	a.googleplus:active {
+		background-image: url(../images/googleplus_g.png);
+		
+		padding-left: 30px;
+	}		
 	a.playlist:active {
 		color: gray;	
 	}
