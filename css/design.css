@@ -237,6 +237,13 @@ table#layout {
 	max-width: 985px;
 }
 
+/* table - classes */
+table.thumb_grid {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
 /* td - IDs */
 td#top {	
 	/* background-color: purple; /*#e5e5e5;*/
@@ -257,6 +264,11 @@ td#right {
 
 td#bottom {
 	text-align: center;
+}
+
+/* td - classes */
+td.viertel {
+	width: 25%;
 }
 
 /* img - IDs */
@@ -281,6 +293,11 @@ img#banner {
 img.video_pic {
 	width: 160px;
 	height: 90px;	
+	box-shadow: 1px 1px 2px #424242;
+	border-radius: 5px;
+}
+
+img.thumb_pic {
 	box-shadow: 1px 1px 2px #424242;
 	border-radius: 5px;
 }
