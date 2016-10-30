@@ -1,10 +1,11 @@
 /* body */
 body {
 	background-color: #e5e5e5;
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
 	margin: 10px;
-	font-family: monospace;
-	font-size: 100%;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%; /* 16px (default) */
 }
 
 h1 {
@@ -244,11 +245,8 @@ table#layout {
 	background-color: #e5e5e5;
 	margin-left: auto;
 	margin-right: auto;
-/*	width: 75%;
 	
-	min-width: 685px;
-	max-width: 985px;
-*/
+/*	max-width: 1280px; col-8 bzw. col-m-8 bzw. col-u-8 */
 }
 
 /* table - classes */
@@ -389,7 +387,7 @@ div.content {
     width: 100%; /* col-12 bzw. col-m-12 */
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) { /* iPhone 5S width -40px */
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -405,7 +403,7 @@ div.content {
     .col-m-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) { /* iPhone 6/6S/7 width - costum value from w3schools.com */
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -419,4 +417,36 @@ div.content {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1040px) { /* iPhone 6/6S/7 Plus width -40px */
+    /* For HD-desktop: */
+    .col-hd-1 {width: 8.33%;}
+    .col-hd-2 {width: 16.66%;}
+    .col-hd-3 {width: 25%;}
+    .col-hd-4 {width: 33.33%;}
+    .col-hd-5 {width: 41.66%;}
+    .col-hd-6 {width: 50%;}
+    .col-hd-7 {width: 58.33%;}
+    .col-hd-8 {width: 66.66%;}
+    .col-hd-9 {width: 75%;}
+    .col-hd-10 {width: 83.33%;}
+    .col-hd-11 {width: 91.66%;}
+    .col-hd-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1880px) { /* 4k/UHD width - costum value (Full-HD width) -40px */
+    /* For UHD-desktop: */
+    .col-uhd-1 {width: 8.33%;}
+    .col-uhd-2 {width: 16.66%;}
+    .col-uhd-3 {width: 25%;}
+    .col-uhd-4 {width: 33.33%;}
+    .col-uhd-5 {width: 41.66%;}
+    .col-uhd-6 {width: 50%;}
+    .col-uhd-7 {width: 58.33%;}
+    .col-uhd-8 {width: 66.66%;}
+    .col-uhd-9 {width: 75%;}
+    .col-uhd-10 {width: 83.33%;}
+    .col-uhd-11 {width: 91.66%;}
+    .col-uhd-12 {width: 100%;}
 }
