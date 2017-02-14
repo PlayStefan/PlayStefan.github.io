@@ -16,7 +16,7 @@ h2 {
 }
 
 p {
-    font-size: 1.0em; /* 6px/16=1.0em --- 14px/16=0.875em */
+    font-size: 1.0em; /* 16px/16=1.0em --- 14px/16=0.875em */
 }
 
 /* a - classes */
@@ -273,6 +273,11 @@ div.blog {
 
 div.content {
 	text-align: center;
+}
+
+/* ul - classes */
+ul.content {
+	text-align: left;
 }
 
 
