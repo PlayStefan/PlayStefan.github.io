@@ -195,7 +195,10 @@ img#avatar {
 	border-left-width: 1px;
 	border-right-width: 1px;
 	border-bottom-width: 1px;
-	border-color: #d6d6d6;
+	
+	border-left-color: #a0a09f;
+	border-right-color: #a1a1a0;
+	border-bottom-color: #747372;
 
 	border-radius: 0px 0px 10px 10px;
 }
