@@ -395,8 +395,8 @@ ul.bottomnav li { float: none; }
 	.col-hd-12 {width: 100%;}
 	
  	img#avatar {
-		width: 96px;
-		height: 96px;	
+		width: 100px;	/* 96px alt */
+		height: 100px;	/* 96px alt */
 	}	
 }
 
