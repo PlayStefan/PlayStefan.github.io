@@ -4,7 +4,7 @@ body {
 	padding: 0px;
 	margin: 4px;
 	font-family: monospace;
-	font-size: 100%; /* 16px/16=1.0em */
+	font-size: 1.0em; /* 100%; /* 16px/16=1.0em */
 }
 
 h1 {
@@ -153,13 +153,6 @@ table#layout {
 	margin-right: auto;
 }
 
-/* table - classes */
-table.thumb_grid {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-
 /* td - IDs */
 td#top {	
 	/* background-color: purple; /*#e5e5e5;*/
@@ -287,6 +280,19 @@ ul.content {
 	text-align: left;
 }
 
+ul.thumb_grid {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.thumb_grid li {
+	min-width: 165px;
+	padding: 10px;
+	padding-left: 0px;
+	float: left;
+}
 
 /* --- w3schools.com - code - start --- */
 ul.topnav,
@@ -353,7 +359,7 @@ ul.bottomnav li { float: none; }
 	.col-m-12 {width: 100%;}	
 }
 
-@media only screen and (min-width: 916px) {    /* alter Wert 685px */
+@media only screen and (min-width: 1142px) {    /* alter Wert 685px */
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
 }
@@ -400,7 +406,7 @@ ul.bottomnav li { float: none; }
 	}	
 }
 
-@media only screen and (min-width: 1880px) { /* 4k/UHD width - costum value (Full-HD width) -40px */
+@media only screen and (min-width: 1880px) { /* 2K width - costum value (Full-HD width) -40px */
 	/* For UHD-desktop: */
 	.col-uhd-1 {width: 8.33%;}
 	.col-uhd-2 {width: 16.66%;}
@@ -414,6 +420,22 @@ ul.bottomnav li { float: none; }
 	.col-uhd-10 {width: 83.33%;}
 	.col-uhd-11 {width: 91.66%;}
 	.col-uhd-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 2520px) { /* 4k width - costum value (2K width) -40px */
+	/* For UHD-desktop: */
+	.col-suhd-1 {width: 8.33%;}
+	.col-suhd-2 {width: 16.66%;}
+	.col-suhd-3 {width: 25%;}
+	.col-suhd-4 {width: 33.33%;}
+	.col-suhd-5 {width: 41.66%;}
+	.col-suhd-6 {width: 50%;}
+	.col-suhd-7 {width: 58.33%;}
+	.col-suhd-8 {width: 66.66%;}
+	.col-suhd-9 {width: 75%;}
+	.col-suhd-10 {width: 83.33%;}
+	.col-suhd-11 {width: 91.66%;}
+	.col-suhd-12 {width: 100%;}
 }
 
 /* --- w3schools.com - code - eof --- */
