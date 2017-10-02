@@ -4,7 +4,7 @@ body {
 	padding: 0px;
 	margin: 4px;
 	font-family: monospace;
-	font-size: 1.0em; /* 100%; /* 16px/16=1.0em */
+	font-size: 100%; /* 16px/16=1.0em */
 }
 
 h1 {
@@ -19,7 +19,9 @@ h3 {
     font-size: 1.25em; /* 20px/16=1.875em */
 }
 
-p {
+p,
+td,
+li {
     font-size: 1.0em; /* 16px/16=1.0em --- 14px/16=0.875em */
 }
 
