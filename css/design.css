@@ -3,7 +3,7 @@ body {
 	background-color: #e5e5e5;
 	padding: 0px;
 	margin: 4px;
-	font-family: monospace;
+	font-family: Arial, sans-serif;
 	font-size: 100%; /* 16px/16=1.0em */
 }
 
@@ -22,7 +22,7 @@ h3 {
 p,
 td,
 li {
-    font-size: 1.0em; /* 16px/16=1.0em --- 14px/16=0.875em */
+    font-size: 0.875em; /* 14px/16=0.875em */
 }
 
 /* a - classes */
