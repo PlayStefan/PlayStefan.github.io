@@ -4,7 +4,7 @@ body {
 	padding: 0px;
 	margin: 4px;
 	font-family: Arial, sans-serif;
-	font-size: 100%; /* 16px/16=1.0em */
+	font-size: 0.875em; /* 100% - 16px/16=1.0em */
 }
 
 h1 {
@@ -19,9 +19,7 @@ h3 {
     font-size: 1.25em; /* 20px/16=1.875em */
 }
 
-p,
-td,
-li {
+p {
     font-size: 0.875em; /* 14px/16=0.875em */
 }
 
