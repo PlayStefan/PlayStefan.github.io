@@ -23,7 +23,7 @@ p,
 td,
 li,
 div {
-    font-size: 1.2em; /* 12px/10=1.2em */
+    font-size: 1.0em; /* 10px/10=1.0em */
 }
 
 /* a - classes */
