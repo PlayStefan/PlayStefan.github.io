@@ -4,26 +4,7 @@ body {
 	padding: 0px;
 	margin: 4px;
 	font-family: Arial, sans-serif;
-	font-size: 62.5%; /* 62.5% - 10px/10=1.0em */
-}
-
-h1 {
-    font-size: 2.4em; /* 24px/10=2.4em */
-}
-
-h2 {
-    font-size: 1.8em; /* 18px/10=1.8em */
-}
-
-h3 {
-    font-size: 1.35em; /* 13.5px/10=1.35em */
-}
-
-p,
-td,
-li,
-div {
-    font-size: 1.0em; /* 10px/10=1.0em */
+	font-size: 100%; /* 62.5% - 10px/10=1.0em */
 }
 
 /* a - classes */
