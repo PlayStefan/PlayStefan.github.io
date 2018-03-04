@@ -181,25 +181,13 @@ td.viertel {
 
 /* img - IDs */
 img#avatar {
-	width: 64px;
-	height: 64px;
-	position: absolute;
-	left: 12px;
-	top: 0px;
-	z-index: 2;
-/*	box-shadow: 2px 2px 2px #424242; */
-
-	border-style: solid;
-	border-top-width: 0px;
-	border-left-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
+	width: 100px;
+	height: 100px;
 	
-	border-left-color: #a0a09f;
-	border-right-color: #a1a1a0;
-	border-bottom-color: #747372;
-
-	border-radius: 0px 0px 10px 10px;
+	position: relative;
+	
+	border: solid 1px #d6d6d6;
+	border-radius: 10px;	
 }
 
 img#banner {
@@ -267,8 +255,21 @@ div#links {
 }
 
 /* div - classes */
+div.leftCol {
+	/*background-color: red;*/
+	width: 25%;
+	float: left;
+}
+
+div.rightCol {
+	/*background-color: blue;*/
+	width: 75%;
+	float: left;
+}
+
 div.content,
-div.blog {
+div.blog,
+div.about {
 	background-color: white;
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 4px; /* =4px table-default */
@@ -279,6 +280,22 @@ div.blog {
 
 div.content {
 	text-align: center;
+}
+
+div.about {
+	margin-right: 4px; /* =4px table-default */
+}
+
+@media only screen and (max-width: 850px) {   
+	div.leftCol,
+	div.rightCol { 
+		width: 100%;
+		float: none;
+	}
+	
+	div.about {
+		margin-right: 0px;	
+	}
 }
 
 /* ul - classes */
@@ -384,11 +401,6 @@ ul.bottomnav li { float: none; }
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-	
-	img#avatar {
-		width: 80px;
-		height: 80px;	
-	}
 }
 
 @media only screen and (min-width: 1040px) { /* iPhone 6/6S/7 Plus width -40px */
@@ -404,12 +416,7 @@ ul.bottomnav li { float: none; }
 	.col-hd-9 {width: 75%;}
 	.col-hd-10 {width: 83.33%;}
 	.col-hd-11 {width: 91.66%;}
-	.col-hd-12 {width: 100%;}
-	
- 	img#avatar {
-		width: 100px;	/* 96px alt */
-		height: 100px;	/* 96px alt */
-	}	
+	.col-hd-12 {width: 100%;}	
 }
 
 @media only screen and (min-width: 1880px) { /* 2K width - costum value (Full-HD width) -40px */
