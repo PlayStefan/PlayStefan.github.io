@@ -365,7 +365,7 @@ ul.bottomnav li.right,
 ul.bottomnav li { float: none; }
 
 @media only screen and (min-width: 700px), /* alter Wert 685px */
-(max-device-width: 480px)
+(max-device-width: 480px) and (orientation: landscape)
 {    
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
