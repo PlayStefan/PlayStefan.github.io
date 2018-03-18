@@ -364,13 +364,18 @@ ul.topnav li,
 ul.bottomnav li.right,
 ul.bottomnav li { float: none; }
 
-[class*="col-"] {
-    width: 100%; /* col-12 bzw. col-m-12 */
+@media only screen and (min-width: 700px) {    /* alter Wert 685px */
+	ul.topnav li.right { float: right; }
+	ul.topnav li { float: left; }
 }
 
 @media only screen and (min-width: 300px) {   
 	ul.bottomnav li.right { float: right; }
 	ul.bottomnav li { float: left; }
+}
+
+[class*="col-"] {
+    width: 100%; /* col-12 bzw. col-m-12 */
 }
 
 @media only screen and (min-width: 600px) { /* iPhone 5S width -40px */
@@ -387,11 +392,6 @@ ul.bottomnav li { float: none; }
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}	
-}
-
-@media only screen and (min-width: 1142px) {    /* alter Wert 685px */
-	ul.topnav li.right { float: right; }
-	ul.topnav li { float: left; }
 }
 
 @media only screen and (min-width: 768px) { /* iPhone 6/6S/7 width - costum value from w3schools.com */
