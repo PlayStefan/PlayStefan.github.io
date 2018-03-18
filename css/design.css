@@ -389,7 +389,7 @@ ul.bottomnav li { float: none; }
 	.col-m-12 {width: 100%;}	
 }
 
-@media only screen and (min-width: 1142px) {    /* alter Wert 685px */
+@media only screen and (min-width: 1142px), (min-device-width: 480px) {    /* alter Wert 685px */
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
 }
