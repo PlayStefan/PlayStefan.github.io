@@ -364,7 +364,9 @@ ul.topnav li,
 ul.bottomnav li.right,
 ul.bottomnav li { float: none; }
 
-@media only screen and (min-width: 700px) {    /* alter Wert 685px */
+@media only screen and (min-width: 700px), /* alter Wert 685px */
+(max-device-width: 480px)
+{    
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
 }
