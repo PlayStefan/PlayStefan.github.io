@@ -389,7 +389,8 @@ ul.bottomnav li { float: none; }
 	.col-m-12 {width: 100%;}	
 }
 
-@media only screen and (min-width: 1142px), (min-resolution: 320dpi) and (min-device-width: 1100px) {    /* alter Wert 685px */
+@media only screen and (min-width: 1142px),
+(min-device-width: 1334px) and (min-device-height: 750px) and (orientation: landscape) {    /* alter Wert 685px */
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
 }
