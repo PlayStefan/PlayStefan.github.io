@@ -44,7 +44,7 @@ a:link {
 	a.youtube:link,
 	a.twitter:link,
 	a.facebook:link,
-	a.googleplus:link {
+	a.instagram:link {
 		text-decoration: none;
 	}
 	a.youtube:link {
@@ -56,8 +56,8 @@ a:link {
 	a.facebook:link {
 		color: #375790;				
 	}
-	a.googleplus:link {
-		color: #de413c;
+	a.instagram:link {
+		color: #02597C;
 	}	
 	a.playlist:link {
 		color: black;
@@ -74,7 +74,7 @@ a:visited {
 	a.youtube:visited,
 	a.twitter:visited,
 	a.facebook:visited,
-	a.googleplus:visited {
+	a.instagram:visited {
 		color: black;
 		text-decoration: none;
 	}
@@ -87,8 +87,8 @@ a:visited {
 	a.facebook:visited {
 		color: #375790;				
 	}
-	a.googleplus:visited {
-		color: #de413c;
+	a.instagram:visited {
+		color: #02597C;
 	}		
 	a.playlist:visited {
 		color: black;
@@ -106,7 +106,7 @@ a.footer:hover {
 	a.youtube:hover,
 	a.twitter:hover,
 	a.facebook:hover,
-	a.googleplus:hover {
+	a.instagram:hover {
 		color: black;
 		text-decoration: none;		
 	}
@@ -122,7 +122,7 @@ a.footer:active {
 	a.youtube:active,
 	a.twitter:active,
 	a.facebook:active,
-	a.googleplus:active {
+	a.instagram:active {
 		text-decoration: none;
 		
 		background-repeat: no-repeat;
@@ -141,8 +141,8 @@ a.footer:active {
 	a.facebook:active {
 		color: #375790;				
 	}
-	a.googleplus:active {
-		color: #de413c;
+	a.instagram:active {
+		color: #02597C;
 	}		
 	a.playlist:active {
 		color: gray;	
