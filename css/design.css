@@ -222,7 +222,7 @@ img.thumb_pic {
 /* div - IDs */
 div#header {
 	position: relative;
-	background-color: #7d0003;
+	background-color: black;
 	clear: left;
 	padding-left: 13px;
 	padding-right: 13px;
