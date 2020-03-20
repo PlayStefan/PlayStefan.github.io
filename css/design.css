@@ -195,7 +195,7 @@ img#avatar {
 	position: relative;
 	
 	border: solid 1px #d6d6d6;
-	border-radius: 10px;	
+	border-radius: 50px;	
 }
 
 img#banner {
@@ -222,7 +222,7 @@ img.thumb_pic {
 /* div - IDs */
 div#header {
 	position: relative;
-	background-color: black;
+	background-color: #767676;
 	clear: left;
 	padding-left: 13px;
 	padding-right: 13px;
