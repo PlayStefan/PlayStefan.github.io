@@ -317,8 +317,9 @@ div.about {
 	}
 	
 	div.about {
-		margin-right: 0px;
-		margin-bottom: 4px;
+		/*margin-right: 0px;
+		margin-bottom: 4px;*/
+		display: none;
 	}
 }
 
@@ -387,8 +388,8 @@ ul.topnav li,
 ul.bottomnav li.right,
 ul.bottomnav li { float: none; }
 
-@media only screen and (min-width: 700px), /* alter Wert 685px */
-(max-device-width: 480px) and (orientation: landscape)
+@media only screen and (min-width: 792px), /* alter Wert 685px */
+/* (max-device-width: 480px) and (orientation: landscape) */
 {    
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
@@ -481,6 +482,22 @@ ul.bottomnav li { float: none; }
 	.col-suhd-10 {width: 83.33%;}
 	.col-suhd-11 {width: 91.66%;}
 	.col-suhd-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 3800px) { /* 4k width - costum value (2K width) -40px */
+	/* For UHD-desktop: */
+	.col-4k-1 {width: 8.33%;}
+	.col-4k-2 {width: 16.66%;}
+	.col-4k-3 {width: 25%;}
+	.col-4k-4 {width: 33.33%;}
+	.col-4k-5 {width: 41.66%;}
+	.col-4k-6 {width: 50%;}
+	.col-4k-7 {width: 58.33%;}
+	.col-4k-8 {width: 66.66%;}
+	.col-4k-9 {width: 75%;}
+	.col-4k-10 {width: 83.33%;}
+	.col-4k-11 {width: 91.66%;}
+	.col-4k-12 {width: 100%;}
 }
 
 /* --- w3schools.com - code - eof --- */
