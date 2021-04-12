@@ -265,13 +265,13 @@ div#links {
 /* div - classes */
 div.leftCol {
 	/*background-color: red;*/
-	width: 25%;
+	width: 17%;
 	float: left;
 }
 
 div.rightCol {
 	/*background-color: blue;*/
-	width: 75%;
+	width: 83%;
 	float: left;
 }
 
@@ -307,7 +307,7 @@ div.about {
 	margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 850px),
+@media only screen and (max-width: 1245px),
 (max-device-width: 480px) and (orientation: landscape)
 {   
 	div.leftCol,
@@ -389,7 +389,7 @@ ul.bottomnav li.right,
 ul.bottomnav li { float: none; }
 
 @media only screen and (min-width: 792px), /* alter Wert 685px */
-/* (max-device-width: 480px) and (orientation: landscape) */
+(max-device-width: 480px) and (orientation: landscape)
 {    
 	ul.topnav li.right { float: right; }
 	ul.topnav li { float: left; }
@@ -402,6 +402,11 @@ ul.bottomnav li { float: none; }
 
 [class*="col-"] {
     width: 100%; /* col-12 bzw. col-m-12 */
+}
+
+@media only screen and (min-width: 1260px) {
+	/* For tablets: */
+	.col-f {width: 1250px;}
 }
 
 @media only screen and (min-width: 600px) { /* iPhone 5S width -40px */
