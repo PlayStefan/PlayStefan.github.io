@@ -275,6 +275,18 @@ div.rightCol {
 	float: left;
 }
 
+div.leftColCon {
+	/*background-color: blue;*/
+	width: 50%;
+	float: left;
+}
+
+div.rightColCon {
+	/*background-color: blue;*/
+	width: 50%;
+	float: left;
+}
+
 div.content,
 div.blog,
 div.navFirst,
@@ -305,6 +317,16 @@ div.navLast {
 div.about {
 	margin-right: 4px; /* =4px table-default */
 	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 792px),
+(max-device-width: 480px) and (orientation: landscape)
+{   
+	div.leftColCon,
+	div.rightColCon { 
+		width: 100%;
+		float: none;
+	}
 }
 
 @media only screen and (max-width: 1245px),
