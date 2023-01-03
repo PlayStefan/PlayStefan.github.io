@@ -41,11 +41,15 @@ a:link {
 	color: gray;
 	text-decoration: underline;
 }
+	a.twitch:link,
 	a.youtube:link,
 	a.twitter:link,
 	a.facebook:link,
 	a.instagram:link {
 		text-decoration: none;
+	}
+	a.twitch:link {
+		color: #774BF3;	
 	}
 	a.youtube:link {
 		color: #d21724;	
@@ -71,12 +75,16 @@ a:visited {
 	color: gray;
 	text-decoration: underline;
 }
+	a.twitch:visited,
 	a.youtube:visited,
 	a.twitter:visited,
 	a.facebook:visited,
 	a.instagram:visited {
 		color: black;
 		text-decoration: none;
+	}
+	a.twitch:visited {
+		color: #774BF3;	
 	}
 	a.youtube:visited {
 		color: #d21724;	
@@ -103,6 +111,7 @@ a.footer:hover {
 	color: black;
 	text-decoration: underline;
 }
+	a.twitch:hover,
 	a.youtube:hover,
 	a.twitter:hover,
 	a.facebook:hover,
@@ -119,18 +128,23 @@ a.footer:active {
 	color: black;
 	text-decoration: underline;
 }
+	a.twitch:active,
 	a.youtube:active,
 	a.twitter:active,
 	a.facebook:active,
 	a.instagram:active {
 		text-decoration: none;
-		
+		/*
 		background-repeat: no-repeat;
 		background-position: left;		
 		
 		padding-top: 5px;
 		padding-bottom: 5px;
+		*/
 			
+	}
+	a.twitch:active {
+		color: #774BF3;	
 	}
 	a.youtube:active {
 		color: #d21724;	
